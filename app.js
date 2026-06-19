@@ -16,23 +16,23 @@ const QUESTION_BANK = {
   ],
   D: [
     { prompt: 'Con la D. Impuesto que entregaban los campesinos a la Iglesia y que solía equivaler a una parte de la cosecha.', answer: 'Diezmo' },
-    { prompt: 'Con la D. Grupo de personas que se separa de una religión por mantener ideas consideradas falsas por la autoridad religiosa.', answer: 'Disidencia' }
+    { prompt: 'Con la D. Territorio gobernado por un duque.', answer: 'Ducado' }
   ],
   E: [
-    { prompt: 'Con la E. Grupo social no privilegiado de la sociedad feudal, formado sobre todo por campesinos.', answer: 'Estamento' },
-    { prompt: 'Con la E. Estilo artístico medieval de iglesias altas, vidrieras y arcos apuntados.', answer: 'Estilo gótico' }
+    { prompt: 'Con la E. Cada uno de los grupos sociales de la sociedad medieval y moderna.', answer: 'Estamento' },
+    { prompt: 'Con la E. Institución colonial española en América para explotar la tierra con trabajadores indígenas.', answer: 'Encomienda' }
   ],
   F: [
     { prompt: 'Con la F. Sistema político, económico y social basado en relaciones de dependencia entre señores y vasallos.', answer: 'Feudalismo' },
     { prompt: 'Con la F. Documento o privilegio concedido a una ciudad medieval para regular sus derechos y obligaciones.', answer: 'Fuero' }
   ],
   G: [
-    { prompt: 'Con la G. Pueblo germano que fundó un reino en Hispania con capital en Toledo.', answer: 'Godos' },
+    { prompt: 'Con la G. Barco utilizado en la Edad Moderna.', answer: 'Galeón' },
     { prompt: 'Con la G. Asociación de artesanos medievales de un mismo oficio que regulaba precios, calidad y aprendizaje.', answer: 'Gremio' }
   ],
   H: [
     { prompt: 'Con la H. Movimiento cultural del Renacimiento que situó al ser humano y la razón en el centro del pensamiento.', answer: 'Humanismo' },
-    { prompt: 'Con la H. Religión y cultura presentes en al-Ándalus, con importantes avances científicos y artísticos.', answer: 'Hispanomusulmana' }
+    { prompt: 'Con la H. Doctrina contraria a las creencias oficiales de la Iglesia.', answer: 'Herejía' }
   ],
   I: [
     { prompt: 'Con la I. Religión nacida en Arabia en el siglo VII y predicada por Mahoma.', answer: 'Islam' },
@@ -40,11 +40,11 @@ const QUESTION_BANK = {
   ],
   J: [
     { prompt: 'Con la J. Barrio de las ciudades medievales habitado por población judía.', answer: 'Judería' },
-    { prompt: 'Con la J. Órgano de gobierno creado por la Monarquía Hispánica para administrar territorios o asuntos concretos.', answer: 'Junta' }
+    { prompt: 'Con la J. Artista ambulante que recitaba poemas y cantaba historias en la Edad Media.', answer: 'Juglar' }
   ],
   K: [
     { prompt: 'Con la K. Santuario de La Meca hacia el que oran los musulmanes.', answer: 'Kaaba' },
-    { prompt: 'Con la K. Ciudad del norte de África que fue un importante centro de expansión islámica medieval.', answer: 'Kairuán' }
+    { prompt: 'Contiene la K. Pueblo navegante del norte de Europa que realizó incursiones durante la Edad Media.', answer: 'Vikingo' }
   ],
   L: [
     { prompt: 'Con la L. Rey francés que representa el absolutismo y es conocido como el Rey Sol.', answer: 'Luis XIV' },
@@ -60,19 +60,19 @@ const QUESTION_BANK = {
   ],
   Ñ: [
     { prompt: 'Contiene la Ñ. Territorio europeo que en la Edad Moderna formó una gran monarquía con posesiones en varios continentes.', answer: 'España' },
-    { prompt: 'Contiene la Ñ. Campaña militar cristiana para conquistar territorios de al-Ándalus.', answer: 'Reconquista' }
+    { prompt: 'Contiene la Ñ. Empresas comerciales de algunas potencias de la Edad Moderna..', answer: 'Compañías' }
   ],
   O: [
     { prompt: 'Con la O. Imperio turco que conquistó Constantinopla en 1453.', answer: 'Otomano' },
     { prompt: 'Con la O. Forma de trabajo artesanal medieval realizada en talleres dirigidos por maestros.', answer: 'Oficio' }
   ],
   P: [
-    { prompt: 'Con la P. Habitantes del Imperio bizantino procedentes de Persia que fueron rivales de Bizancio.', answer: 'Persas' },
-    { prompt: 'Con la P. Pintor barroco flamenco famoso por sus composiciones dinámicas y coloristas.', answer: 'Pedro Pablo Rubens' }
+    { prompt: 'Con la P. Viaje religioso a un lugar sagrado.', answer: 'Peregrinación' },
+    { prompt: 'Con la P. Institución representativa de algunos reinos.', answer: 'Parlamento' }
   ],
   Q: [
     { prompt: 'Con la Q. Gobernador o juez musulmán que impartía justicia en las ciudades islámicas.', answer: 'Qadí' },
-    { prompt: 'Con la Q. Parte de una ciudad andalusí donde se concentraban tiendas, artesanos y comercio.', answer: 'Qaysaría' }
+    { prompt: 'Contiene la Q. Templo de la religión musulmana..', answer: 'Mezquita' }
   ],
   R: [
     { prompt: 'Con la R. Movimiento artístico y cultural de los siglos XV y XVI inspirado en la Antigüedad clásica.', answer: 'Renacimiento' },
@@ -80,7 +80,7 @@ const QUESTION_BANK = {
   ],
   S: [
     { prompt: 'Con la S. Campesino medieval que dependía de un señor y no podía abandonar libremente el feudo.', answer: 'Siervo' },
-    { prompt: 'Con la S. Grupo de personas organizadas con derechos y deberes diferentes según su nacimiento o función.', answer: 'Sociedad estamental' }
+    { prompt: 'Con la S. Territorio controlado por un señor feudal.', answer: 'Señorío' }
   ],
   T: [
     { prompt: 'Con la T. Soldados de infantería de la Monarquía Hispánica famosos en Europa durante los siglos XVI y XVII.', answer: 'Tercios' },
@@ -88,27 +88,27 @@ const QUESTION_BANK = {
   ],
   U: [
     { prompt: 'Con la U. Forma de vida propia de las ciudades, que creció con el comercio y la artesanía medieval.', answer: 'Urbana' },
-    { prompt: 'Con la U. Unión de Coronas que permitió formar grandes monarquías en la Edad Moderna.', answer: 'Unión dinástica' }
+    { prompt: 'Con la U. Unión de Coronas que permitió formar grandes monarquías en la Edad Moderna como la de los Reyes Católicos.', answer: 'Unión dinástica' }
   ],
   V: [
     { prompt: 'Con la V. Persona que juraba fidelidad a un señor a cambio de protección o tierras.', answer: 'Vasallo' },
     { prompt: 'Con la V. Pueblo germano que saqueó Roma y dio nombre a un reino en el norte de África.', answer: 'Vándalos' }
   ],
   W: [
-    { prompt: 'Con la W. Rey visigodo que aparece en las listas de monarcas hispánicos anteriores a la conquista musulmana.', answer: 'Witiza' },
-    { prompt: 'Con la W. Rey visigodo asociado a la localidad vallisoletana que lleva su nombre.', answer: 'Wamba' }
+    { prompt: 'Con la W. Ciudad alemana donde se celebró la Dieta que juzgó a Lutero', answer: 'Worms' },
+    { prompt: 'Contiene la W. Parlamentario puritano que se enfrentó a la corona inglesa en una guerra civil.', answer: 'Cromwell' }
   ],
   X: [
-    { prompt: 'Con la X. Técnica de grabado en madera utilizada para reproducir imágenes antes y después de la imprenta.', answer: 'Xilografía' },
-    { prompt: 'Con la X. Nombre con el que se conoce a un soberano persa de la Antigüedad citado en estudios históricos clásicos.', answer: 'Xerxes' }
+    { prompt: 'Contiene la X. Castigo impuesto por la Iglesia que excluía a una persona de la comunidad cristiana..', answer: 'Excomunión' },
+    { prompt: 'Contiene la X. Persona que recorre territorios desconocidos, como en América.', answer: 'Explorador' } 
   ],
   Y: [
-    { prompt: 'Con la Y. Dinastía musulmana procedente del norte de África que dominó al-Ándalus en la Edad Media.', answer: 'Yusufíes' },
-    { prompt: 'Con la Y. Territorio o aldea medieval dependiente de una ciudad o señorío.', answer: 'Yermo' }
+    { prompt: 'Contiene la Y. Persona que gobernaba en nombre del rey en América.', answer: 'Virrey' },
+    { prompt: 'Con la Y. Guerra santa musulmana.', answer: 'Yihad' }
   ],
   Z: [
     { prompt: 'Con la Z. Mercado de las ciudades islámicas donde se compraban y vendían productos.', answer: 'Zoco' },
-    { prompt: 'Con la Z. Dinastía nazarí vinculada al reino de Granada y a la Alhambra.', answer: 'Ziríes' }
+    { prompt: 'Contiene la Z. Dinastía del reino de Granada.', answer: 'Nazarí' }
   ]
 };
 
